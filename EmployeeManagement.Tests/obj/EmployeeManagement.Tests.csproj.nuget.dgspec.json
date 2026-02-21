@@ -13,6 +13,7 @@
         "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
         "outputPath": "C:\\Projetos\\EmployeeManagement\\EmployeeManagement.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "centralPackageVersionsManagementEnabled": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -53,20 +54,43 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.14.1, )"
+              "version": "[17.14.1, )",
+              "versionCentrallyManaged": true
             },
             "coverlet.collector": {
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[6.0.4, )",
+              "versionCentrallyManaged": true
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.9.3, )"
+              "version": "[2.9.3, )",
+              "versionCentrallyManaged": true
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.4, )",
+              "versionCentrallyManaged": true
             }
+          },
+          "centralPackageVersions": {
+            "AutoMapper": "12.0.1",
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+            "coverlet.collector": "6.0.4",
+            "FluentValidation": "12.1.1",
+            "FluentValidation.DependencyInjectionExtensions": "12.1.1",
+            "MediatR": "12.4.1",
+            "Microsoft.AspNetCore.Authentication.JwtBearer": "10.0.3",
+            "Microsoft.EntityFrameworkCore": "10.0.3",
+            "Microsoft.EntityFrameworkCore.SqlServer": "10.0.3",
+            "Microsoft.EntityFrameworkCore.Tools": "10.0.3",
+            "Microsoft.NET.Test.Sdk": "17.14.1",
+            "Serilog": "4.3.1",
+            "Serilog.AspNetCore": "10.0.0",
+            "Serilog.Sinks.Console": "6.1.1",
+            "System.IdentityModel.Tokens.Jwt": "8.16.0",
+            "xunit": "2.9.3",
+            "xunit.runner.visualstudio": "3.1.4"
           },
           "imports": [
             "net461",

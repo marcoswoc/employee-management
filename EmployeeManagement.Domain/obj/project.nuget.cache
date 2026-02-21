@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wQG7hRN5q1Y=",
+  "dgSpecHash": "J3uL4bktEiE=",
   "success": true,
   "projectFilePath": "C:\\Projetos\\EmployeeManagement\\EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marco\\.nuget\\packages\\fluentvalidation\\11.9.2\\fluentvalidation.11.9.2.nupkg.sha512"
+    "C:\\Users\\marco\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512"
   ],
   "logs": []
 }
