@@ -24,4 +24,4 @@ app.MapStaticAssets();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
-await app.RunAsync();
+app.RunAsync();
