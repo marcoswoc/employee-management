@@ -18,7 +18,7 @@ public class Employee
     // Navigation Properties
     public required Department Department { get; set; }
     public Employee? Manager { get; set; }
-    public ICollection<Employee> DirectReports { get; set; } = new List<Employee>();
+    public ICollection<Employee> DirectReports { get; private set; } = new List<Employee>();
 
     // Metadata
     public string Status { get; set; } = "Active"; // Active, Inactive, On Leave
