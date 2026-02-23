@@ -1,6 +1,10 @@
-﻿namespace EmployeeManagement.Blazor.Models;
+﻿using System.ComponentModel.DataAnnotations;
 
-internal class ApiSettings
+namespace EmployeeManagement.Blazor.Models;
+
+internal sealed class ApiSettings
 {
-    public string BaseUrl { get; set; } = string.Empty;
+    [Required(ErrorMessage = "BaseUrl é obrigatória")]
+    [Url(ErrorMessage = "BaseUrl deve ser uma URL válida")]
+    public Uri BaseUrl { get; set; } = null!;
 }

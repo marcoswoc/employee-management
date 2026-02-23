@@ -14,8 +14,8 @@ builder.Services.Configure<ApiSettings>(builder.Configuration.GetSection(nameof(
 
 builder.Services.AddScoped(sp =>
 {
-    var apiSettings = sp.GetRequiredService<IOptions<ApiSettings>>().Value;
-    return new HttpClient { BaseAddress = new Uri(apiSettings.BaseUrl) };
+    ApiSettings apiSettings = sp.GetRequiredService<IOptions<ApiSettings>>().Value;
+    return new HttpClient { BaseAddress = apiSettings.BaseUrl };
 });
 
-builder.Build().RunAsync();
+await builder.Build().RunAsync();
